@@ -30,14 +30,18 @@ Vous utiliserez pour cela un tableau. Le constructeur prendra en paramètre le n
 * Vous ajouterez des méthodes pour : 
 
         a) Donner le nombre de livres que peut contenir l’étagère, et le nombre de livres qu’elle contient. 
+        
         b) Ajouter des livres (« void ajouter (Livre) »). Vous ajouterez les livres « à la fin » de l’étagère. 
         Il devra être impossible d’ajouter des livres dans une étagère pleine. 
+        
         c) Récupérer un livre dont on donne la position sur l’étagère (le livre reste sur l’étagère, 
         on récupère simplement les informations sur le livre).
          La méthode renverra une instance de livre. La position du premier livre d’une étagère devra être 1 
          (et pas 0, bien que le livre soit rangé dans 
-         la première position du tableau, qui est d’indice 0). La signature de la méthode sera « Livre getLivre(int) ». 
+         la première position du tableau, qui est d’indice 0). La signature de la méthode sera 
+         « Livre getLivre(int) ». 
+         
         d) Chercher sur l’étagère un livre repéré par son titre et son auteur. La méthode renverra la position 
-        du livre dans l’étagère 
-        (ou 0 si le livre n’y est pas). Le profil de la méthode sera. 
+        du livre dans l’étagère (ou 0 si le livre n’y est pas). Le profil de la méthode sera. 
+        
         e) Supprimer des livres.      
